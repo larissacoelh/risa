@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Login</title>
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <div><a href="inicio.html" target="_self"><img class="logo" src="header/logo.png"></a></div>
+            <div class="barbutton">
+                <form id="form">
+                    <label for="texto"></label>
+                    <input id=texto type="text" placeholder="Pesquisar produtos...">
+                    <div><button id="button1" type="submit"><span class="material-icons">search</span></button></div>
+                </form>
+            </div>
+            <div>
+                <ul class="buttons">
+                    <li class="button"><span class="material-icons">add_shopping_cart</span>Carrinho</li>
+                    <li class="button"><span class="material-icons">account_circle</span>Minha conta</li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div class="all">
+        <div class="categorias" id="catid">
+            <ul class="cat">
+                <li><strong><a class="link" href="inicio.html" target="_self">Início</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Ofertas</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Roupas</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Acessórios</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Outros</a></strong></li>
+            </ul>
+        </div>
+    </div>
+    <div class="all-two">
+        <div class="login">
+            <h2 id="login-text">Já é cadastrado?</h2>
+            <p id="login-text">Então entre com seus dados de login e senha.</p>
+            <form>
+                <label for="email">Seu e-mail: </label>
+                <br>
+                <input id="login-decor" id="email" type="email">
+                <br>
+                <label for="senha">Sua senha: </label>
+                <br>
+                <input id="login-decor" id="senha" type="password">
+                <ul id="login-text">
+                    <li id="pwd"><a href="login.html">Esqueceu a sua senha?</a></li>
+                </ul>
+                <button class="entrar" type="submit">Entrar</button>
+            </form>
+            <h3 id="login-text">Entrar com o Facebook ou Gmail</h3>
+            <div class="buttons-dois">
+                <div class="face-google"><span class="material-icons">facebook</span></div>
+                <div class="face-google"><span class="material-icons">email</span></div>
+            </div>
+        </div>
+        <div class="login">
+            <h2 id="login-text">Ainda não é cadastrado no site?</h2>
+            <p id="login-text">Faça agora mesmo seu cadastro, é simples e rápido!</p>
+            <form>
+                <label for="email">Seu e-mail: </label>
+                <br>
+                <input id="login-decor" id="email" type="email">
+                <br>
+                <label for="senha">Sua senha: </label>
+                <br>
+                <input id="login-decor" id="senha" type="password">
+                <br>
+                <label for="cpf">CPF: </label>
+                <br>
+                <input id="login-decor" id="cpf" type="number">
+                <br>
+                <label for="nome">Seu nome: </label>
+                <br>
+                <input id="login-decor" id="nome" type="text">
+                <br>
+                <label for="data">Data de nascimento: </label>
+                <br>
+                <input id="login-decor" id="data" type="date">
+                <br>
+                <p id="login-text">Sexo:</p>
+                <input id="nome" name="genero" type="radio">
+                <label for="sexo">Feminino</label>
+                <input id="login-text" id="nome" name="genero" type="radio">
+                <label for="sexo">Masculino</label>
+                <br>
+                <label for="tel">Telefone: </label>
+                <br>
+                <input id="login-decor" id="tel" type="tel">
+                <br>
+                <br>
+                <button class="entrar" type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="all">
+            <div class="subrodape">
+                <div class="sub">
+                    <h1 class="lista2">Categorias</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="#catid">Início</a></li>
+                        <li><a class="lista2" href="#catid">Ofertas</a></li>
+                        <li><a class="lista2" href="#catid">Roupas</a></li>
+                        <li><a class="lista2" href="#catid">Acessórios</a></li>
+                        <li><a class="lista2" href="#catid">Outros</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <h1 class="lista2">Novidades</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="inicio.html#imgid">Black Friday</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <h1 class="lista2">Páginas</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="login.html">Login</a></li>
+                        <li><a class="lista2" href="carrinho.html">Carrinho</a></li>
+                        <li><a class="lista2" href="">Pedido</a></li>
+                        <li><a class="lista2" href="">Administrador</a></li>
+                        <li><a class="lista2" href="">Cadastro de produto</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <h1 class="lista2">Risa</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="">Sobre a Risa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="all">
+            <div class="subrodape2">
+                <div class="pagamento">
+                    <h1 class="tit">Formas de pagamento</h1>
+                    <div class="formas">
+                        <div class="pag"><img src="footer/visa.png" class="pag" alt="boleto"></div>
+                        <div class="pag"><img src="footer/visaelectron.png" class="pag" alt="boleto"></div>
+                        <div class="pag"><img src="footer/stripe.png" class="pag" alt="boleto"></div>
+                        <div class="pag"><img src="footer/switch.png" class="pag" alt="boleto"></div>
+                    </div>
+                </div>
+                <div class="certi">
+                    <h1 class="tit">Certificados de segurança</h1>
+                    <div class="certificados">
+                        <div class="cert"><img src="footer/reclame_aqui.jpg" class="cert" alt="boleto"></div>
+                        <div class="cert"><img src="footer/safebrowser.png" class="cert" alt="boleto"></div>
+                        <div class="cert"><img src="footer/seal.png" class="cert" alt="boleto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all">
+            <div class="rodape">
+                <div><a href="inicio.html" target="_self"><img class="logo2" src="header/logo.png"></a></div>
+                <div class="redes">
+                    <div class="face"><span class="material-icons">facebook</span></div>
+                    <div class="face"><span class="material-icons">email</span></div>
+                    <div class="face"><span class="material-icons">message</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

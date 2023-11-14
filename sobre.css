@@ -1,0 +1,143 @@
+*{margin: 0; padding: 0;}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+    width: 1500px;
+    border: solid 1px #373636;
+}
+
+#texto{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-right: -4px;
+    height: 25px;
+    width: 250px;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.logo{
+    height: 240px;
+    width: 250px;
+}
+
+#form{
+    display: flex;
+}
+
+#button1{
+    height: 39px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: #939393;
+    width: 50px;
+    background-color: #939393;
+}
+
+.button{
+    display: flex;
+    background-color: white;
+    border: solid white;
+    margin-left: 20px;
+    border-radius: 20px;
+    line-height: 30px;
+    padding-right: 6px;
+    padding-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+.barbutton{
+    display: flex;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin-right: 45px;
+}
+
+.material-icons{
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.categorias{
+    align-items: center;
+    background-color: #FDFDFD;
+    border: solid 1px #373636;
+    width: 1500px;
+    height: 55px;
+}
+
+.cat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.tudo{
+    margin-top: 50px;
+    border: solid 1px black;
+    width: 800px;
+    height: 600px;
+}
+
+.sobre-loja{
+    border: solid 1px black;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.sobre-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre-mvv{
+    border: solid 1px black;
+    width: 1200px;
+    margin-left: 20px;
+}
+
+.sobre-mvv2{
+    border: solid 1px black;
+    width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

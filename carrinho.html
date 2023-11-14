@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="carrinho.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Carrinho</title>
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <div><a href="inicio.html" target="_self"><img class="logo" src="header/logo.png"></a></div>
+            <div class="barbutton">
+                <form id="form">
+                    <label for="texto"></label>
+                    <input id=texto type="text" placeholder="Pesquisar produtos...">
+                    <div><button id="button1" type="submit"><span class="material-icons">search</span></button></div>
+                </form>
+            </div>
+            <div>
+                <ul class="buttons">
+                    <li class="button"><span class="material-icons">add_shopping_cart</span>Carrinho</li>
+                    <li class="button"><span class="material-icons">account_circle</span>Minha conta</li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div class="all">
+        <div class="categorias" id="catid">
+            <ul class="cat">
+                <li><strong><a class="link" href="inicio.html" target="_self">Início</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Ofertas</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Roupas</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Acessórios</a></strong></li>
+                <li><strong><a class="link" href="inicio.html" target="_self">Outros</a></strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="all">
+        <div class="carrinho-meu"><h3>Meu carrinho</h3></div>
+    </div>
+    <div class="all-two">
+        
+            <div class="carrinho">
+                <div class="carrinho-tit">
+                    <h4 class="space-prod">Produto</h4><h4 class="space">Quantidade</h4><h4 class="space">Remover</h4><h4 class="space-preco">Preço</h4>
+                </div>
+                <div class="carrinho-opcao">
+                    <img src="produtos/rabbitshirt.jpg" alt="Camiseta Preta Oversized Coelho" class="img-carrinho">
+                    <div class="carrinho-prod"><h5>Camiseta Preta Oversized Coelho</h5><h6>em 5x de 8,00 sem juros</h6></div>
+                    <label for="qnt"></label>
+                    <input id="qnt" type="number">
+                    <div class="carrinho-remover"><span class="material-icons">clear</span></div>
+                    <h4>R$ 40,00</h4>
+                </div>
+                <div class="carrinho-opcao">
+                    <img src="produtos/cargojeans.jpg" alt="Calça Cargo Jeans Cinza Estrela" class="img-carrinho">
+                    <div class="carrinho-prod"><h5>Calça Cargo Jeans Cinza Estrela</h5><h6>em 5x de 16,00 sem juros</h6></div>
+                    <label for="qnt"></label>
+                    <input id="qnt" type="number">
+                    <div class="carrinho-remover"><span class="material-icons">clear</span></div>
+                    <h4>R$ 80,00</h4>
+                </div>
+                <div class="carrinho-opcao">
+                    <img src="produtos/allstar.jpg" alt="Tênis Converse All Star Preto Branco" class="img-carrinho">
+                    <div class="carrinho-prod"><h5>Tênis Converse All Star Preto Branco</h5><h6>em 5x de 20,00 sem juros</h6></div>
+                    <label for="qnt"></label>
+                    <input id="qnt" type="number">
+                    <div class="carrinho-remover"><span class="material-icons">clear</span></div>
+                    <h4 class="space-preco">R$ 100,00</h4>
+                </div>
+            </div>
+
+            <div class="resumo">
+
+                <h3 class="resumo-pedido">Resumo do pedido</h3>
+
+                <div class="resumo-display">
+                    <p>Subtotal (3 produtos)</p>
+                    <p>R$ 220,00</p>
+                </div>
+
+                <div class="resumo-display">
+                    <p>Frete</p>
+                    <p>R$ 5,00</p>
+                </div>
+
+                <div class="resumo-total">
+                    <h3>Total</h3>
+                    <h3>R$ 225,00</h3>
+                </div>
+
+                <div class="button-continuar">Continuar</div>
+
+            </div>
+    </div>
+    <footer>
+        <div class="all">
+            <div class="subrodape">
+                <div class="sub">
+                    <h1 class="lista2">Categorias</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="#catid">Início</a></li>
+                        <li><a class="lista2" href="#catid">Ofertas</a></li>
+                        <li><a class="lista2" href="#catid">Roupas</a></li>
+                        <li><a class="lista2" href="#catid">Acessórios</a></li>
+                        <li><a class="lista2" href="#catid">Outros</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <h1 class="lista2">Novidades</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="inicio.html#imgid">Black Friday</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <h1 class="lista2">Páginas</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="login.html">Login</a></li>
+                        <li><a class="lista2" href="carrinho.html">Carrinho</a></li>
+                        <li><a class="lista2" href="">Pedido</a></li>
+                        <li><a class="lista2" href="">Administrador</a></li>
+                        <li><a class="lista2" href="">Cadastro de produto</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <h1 class="lista2">Risa</h1>
+                    <ul class="lista">
+                        <li><a class="lista2" href="">Sobre a Risa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="all">
+            <div class="subrodape2">
+                <div class="pagamento">
+                    <h1 class="tit">Formas de pagamento</h1>
+                    <div class="formas">
+                        <div class="pag"><img src="footer/visa.png" class="pag" alt="boleto"></div>
+                        <div class="pag"><img src="footer/visaelectron.png" class="pag" alt="boleto"></div>
+                        <div class="pag"><img src="footer/stripe.png" class="pag" alt="boleto"></div>
+                        <div class="pag"><img src="footer/switch.png" class="pag" alt="boleto"></div>
+                    </div>
+                </div>
+                <div class="certi">
+                    <h1 class="tit">Certificados de segurança</h1>
+                    <div class="certificados">
+                        <div class="cert"><img src="footer/reclame_aqui.jpg" class="cert" alt="boleto"></div>
+                        <div class="cert"><img src="footer/safebrowser.png" class="cert" alt="boleto"></div>
+                        <div class="cert"><img src="footer/seal.png" class="cert" alt="boleto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all">
+            <div class="rodape">
+                <div><a href="inicio.html" target="_self"><img class="logo2" src="header/logo.png"></a></div>
+                <div class="redes">
+                    <div class="face"><span class="material-icons">facebook</span></div>
+                    <div class="face"><span class="material-icons">email</span></div>
+                    <div class="face"><span class="material-icons">message</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
