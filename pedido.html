@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="carrinho.css" rel="stylesheet">
+    <link href="pedido.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <title>Carrinho</title>
+    <title>Finalizar pedido</title>
 </head>
 <body>
     <div class="all">
@@ -41,57 +41,72 @@
             </ul>
         </div>
     </div>
-
-    <div class="all">
-        <div class="carrinho-meu"><h3>Meu carrinho</h3></div>
-    </div>
-    <div class="all-two">
-        <div class="carrinho">
-            <div class="carrinho-tit">
-                <h4 class="space-prod">Produto</h4><h4 class="space">Quantidade</h4><h4 class="space">Remover</h4><h4 class="space-preco">Preço</h4>
+    
+        <div class="display">
+            <div class="side">
+                <div class="tit-pedido"><h3>Meu pedido</h3></div>
+                <div class="meu-pedido">
+                    <div class="desc-preco">
+                        <h3>Descrição do produto</h3>
+                        <h3>Preço</h3>
+                    </div>
+                    <div class="desc-preco">
+                        <h5>descrição produto</h5>
+                        <h5>R$ 999,00</h5>
+                    </div>
+                    <div class="desc-preco">
+                        <h5>descrição produto</h5>
+                        <h5>R$ 999,00</h5>
+                    </div>
+                    <div class="desc-preco">
+                        <h5>descrição produto</h5>
+                        <h5>R$ 999,00</h5>
+                    </div>
+                </div>
+                <div class="tit-pedido"><h3>Endereço de entrega</h3></div>
+                <div class="endereco">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloremque aspernatur, id minus alias vel doloribus soluta temporibus iure beatae debitis reprehenderit quas nam aliquam culpa ducimus asperiores similique facilis?</p>
+                    <ul><li class="alterar"><a href="pedido.html"></a>Alterar endereço de entrega</li></ul>
+                </div>
+                <div class="tit-pedido"><h3>Você possui cupom de desconto?</h3></div>
+                <div class="possui-cupom">
+                    <label for="cupom"></label>
+                    <input id="cupom" type="text">
+                    <button type="submit">Aplicar</button>
+                </div>
             </div>
-            <div class="carrinho-opcao">
-                <img src="produtos/rabbitshirt.jpg" alt="Camiseta Preta Oversized Coelho" class="img-carrinho">
-                <div class="carrinho-prod"><h5>Camiseta Preta Oversized Coelho</h5><h6>em 5x de 8,00 sem juros</h6></div>
-                <label for="qnt"></label>
-                <input id="qnt" type="number">
-                <div class="carrinho-remover"><span class="material-icons">clear</span></div>
-                <h4>R$ 40,00</h4>
-            </div>
-            <div class="carrinho-opcao">
-                <img src="produtos/cargojeans.jpg" alt="Calça Cargo Jeans Cinza Estrela" class="img-carrinho">
-                <div class="carrinho-prod"><h5>Calça Cargo Jeans Cinza Estrela</h5><h6>em 5x de 16,00 sem juros</h6></div>
-                <label for="qnt"></label>
-                <input id="qnt" type="number">
-                <div class="carrinho-remover"><span class="material-icons">clear</span></div>
-                <h4>R$ 80,00</h4>
-            </div>
-            <div class="carrinho-opcao">
-                <img src="produtos/allstar.jpg" alt="Tênis Converse All Star Preto Branco" class="img-carrinho">
-                <div class="carrinho-prod"><h5>Tênis Converse All Star Preto Branco</h5><h6>em 5x de 20,00 sem juros</h6></div>
-                <label for="qnt"></label>
-                <input id="qnt" type="number">
-                <div class="carrinho-remover"><span class="material-icons">clear</span></div>
-                <h4 class="space-preco">R$ 100,00</h4>
+            <div class="side">
+                <div class="tit-pedido"><h3>Resumo do pedido</h3></div>
+                <div class="resumo-pedido">
+                    <div class="resumo-display">
+                        <p>Subtotal (3 produtos)</p>
+                        <p>R$ 220,00</p>
+                    </div>
+                    <div class="resumo-display">
+                        <p>Frete</p>
+                        <p>R$ 5,00</p>
+                    </div>
+                    <div class="resumo-total">
+                        <h3>Total</h3>
+                        <h3>R$ 225,00</h3>
+                    </div>
+                </div>
+                <div class="tit-pedido"><h3>Forma de pagamento</h3></div>
+                <div class="forma-pag">
+                    <input id="boleto" type="radio">
+                    <label for="boleto">Boleto bancário</label>
+                    <br>
+                    <input id="cartao" type="radio">
+                    <label for="cartao">Cartão de crédito</label>
+                    <br>
+                    <input id="pix" type="radio">
+                    <label for="pix">Pix</label>
+                    <br>
+                    <button type="submit">Finalizar pedido</button>
+                </div>
             </div>
         </div>
-        <div class="resumo">
-            <h3 class="resumo-pedido">Resumo do pedido</h3>
-            <div class="resumo-display">
-                <p>Subtotal (3 produtos)</p>
-                <p>R$ 220,00</p>
-            </div>
-            <div class="resumo-display">
-                <p>Frete</p>
-                <p>R$ 5,00</p>
-            </div>
-            <div class="resumo-total">
-                <h3>Total</h3>
-                <h3>R$ 225,00</h3>
-            </div>
-            <a class="button-continuar" href="index.html"><strong>Continuar</strong></a>
-        </div>
-    </div>
+    
     <footer>
         <div class="all">
             <div class="subrodape">

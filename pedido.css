@@ -115,97 +115,55 @@
     color: black;
 }
 
-.carrinho-meu{
-    display: flex;  
-    align-items: center;
+
+
+.display{
+    display: flex;
     justify-content: center;
-    text-align: center;
-    width: 750px;
+    align-items: center;
+}
+
+.side{
+    width: 500px;
+}
+
+.tit-pedido{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 5px;
     box-shadow: 4px 4px #373636;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 15px;
     border: solid 1px black;
 }
 
-.carrinho{
-    width: 830px;
-    height: 274px;
-    padding-top: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: solid 1px black;
-    box-shadow: 2px 2px black;
+.meu-pedido{
+    margin-bottom: 50px;
 }
 
-.carrinho-tit{
+.desc-preco{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 750px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
 }
 
-.space-prod{
-    margin-right: 180px;
+.endereco{
+    border: 1px solid black;
+    margin-bottom: 50px;
 }
 
-.space-preco{
-    margin-left: -9px;
-}
-
-.carrinho-opcao{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 790px;
-    border: solid 1px black;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.carrinho-prod{
-    width: 200px;
-    margin-left: -100px;
-    
-}
-
-.img-carrinho{
-    width: 70px;
-    height: 80px;
-}
-
-#qnt{
-    width: 40px;
-    text-align: center;
-    margin-left: -230px;
-}
-
-.carrinho-remover{
-    border: solid 1px black;
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-top: 2px;
-    padding-bottom: 1px;
-    margin-left: 10px;
-}
-
-.resumo{
-    margin-left: 50px;
-    border: solid 1px black;
-    width: 270px;
-    height: 190px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
-    box-shadow: 4px 4px black;
+.possui-cupom{
+    border: 1px solid black;
 }
 
 .resumo-pedido{
+    border: solid 1px black;
+    width: 270px;
+    height: 90px;
+    box-shadow: 4px 4px black;
     margin-bottom: 20px;
-    font-size: 20px;
 }
 
 .resumo-display{
@@ -221,17 +179,10 @@
     margin-bottom: 20px;
 }
 
-.button-continuar{
-    display: flex;
-    justify-content: center;
-    background-color: #939393;
+.forma-pag{
     border: solid 1px black;
-    box-shadow: 2px 2px black;
-    padding: 5px;
-    width: 260px;
-    text-decoration: none;
-    color: black;
 }
+
 
 .subrodape{
     display: flex;
