@@ -141,16 +141,11 @@
     margin-bottom: 20px;
 }
 
-.produtos{
-    width: 750px;
+.all-produto{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.produto-cadas{
-    box-shadow: 2px 2px black;
-}
-
-.tit-produto{
+.tit-novo-prod{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,64 +155,68 @@
     padding: 5px;
 }
 
-.img-produto{
-    width: 70px;
-    height: 80px;
-    margin-right: -60px;
+.novo-produto{
+    box-shadow: 2px 2px #373636;
+    border: solid 1px #373636;
+    padding: 15px;
 }
 
-
-.cat-produto{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 1px black;
-    padding: 7px 15px;
+#desc{
+    width: 310px;
+    height: 25px;
+    margin-top: 7px;
+    padding-left: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
 }
 
-.opc-produto{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 1px black;
-    padding-left: 15px;
-    padding-right: 15px;
+#preco{
+    width: 310px;
+    height: 25px;
+    margin-top: 7px;
+    padding-left: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
 }
 
-.space-prod{
-    padding-right: 150px;
+#ficha-tec{
+    margin-top: 7px;
+    border: solid 2px black;
+    border-radius: 5px;
 }
 
-.space-edit{
-    padding-right: 80px;
+#categoria{
+    margin-top: 7px;
+    width: 200px;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 2px;
 }
 
-.space-estoque{
-    margin-left: -40px;
-    margin-right: 30px;
+#img-upload{
+    margin-top: 7px;
 }
 
-.botoes{
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-    margin-right: 25px;
-}
-
-.botao{
+#botao-cadast{
     display: flex;
     justify-content: center;
     background-color: #939393;
     border: solid 1px black;
     box-shadow: 2px 2px black;
     padding: 5px;
-    width: 55px;
+    width: 100px;
     text-decoration: none;
     color: black;
     margin-right: 15px;
 }
 
 
+
+
+
+.style-upload {
+    cursor: pointer;
+}
 
 
 

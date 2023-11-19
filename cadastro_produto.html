@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="administrador.css" rel="stylesheet">
+    <link href="cadastro_produto.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <title>Administrador</title>
+    <title>Cadastro de produto</title>
 </head>
 <body>
     <div class="all">
@@ -54,43 +54,58 @@
             <p>Relatório 2</p>
             <p>Relatório 3</p>
         </div>
-        <div class="produtos">
-            <div class="tit-produto"><h2>Produtos cadastrados</h2></div>
-            <div class="produto-cadas">
-                <div class="cat-produto"><h4 class="space-prod">Produto</h4><h4>Estoque</h4><h4>Preço</h4><h4 class="space-edit">Editar</h4></div>
-                <div class="opc-produto">
-                    <img src="produtos/rabbitshirt.jpg" alt="Camiseta Preta Oversized Coelho" class="img-produto">
-                    <div><h5>Camiseta Preta Oversized Coelho</h5><h6>em 5x de 8,00 sem juros</h6></div>
-                    <h4 class="space-estoque">100</h4>
-                    <h4>R$ 40,00</h4>
-                    <div class="botoes">
-                        <button type="submit" class="botao">Editar</button>
-                        <button type="submit" class="botao">Deletar</button>
-                    </div>
-                </div>
-                <div class="opc-produto">
-                    <img src="produtos/cargojeans.jpg" alt="Calça Cargo Jeans Cinza Estrela" class="img-produto">
-                    <div><h5>Calça Cargo Jeans Cinza Estrela</h5><h6>em 5x de 16,00 sem juros</h6></div>
-                    <h4 class="space-estoque">100</h4>
-                    <h4>R$ 80,00</h4>
-                    <div class="botoes">
-                        <button type="submit" class="botao">Editar</button>
-                        <button type="submit" class="botao">Deletar</button>
-                    </div>
-                </div>
-                <div class="opc-produto">
-                    <img src="produtos/allstar.jpg" alt="Tênis Converse All Star Preto Branco" class="img-produto">
-                    <div><h5>Tênis Converse All Star Preto Br...</h5><h6>em 5x de 20,00 sem juros</h6></div>
-                    <h4 class="space-estoque">100</h4>
-                    <h4>R$ 100,00</h4>
-                    <div class="botoes">
-                        <button type="submit" class="botao">Editar</button>
-                        <button type="submit" class="botao">Deletar</button>
-                    </div>
-                </div>
+
+        <div class="all-produto">
+            <div class="tit-novo-prod"><h3>Cadastrar novo produto</h3></div>
+            <div class="novo-produto">
+                <form>
+                    <label for="desc">Descrição</label>
+                    <br>
+                    <input id="desc" type="text" placeholder="Ex: Camiseta Streetwear Preta...">
+
+                    <br><br>
+                    <label for="preco">Preço</label>
+                    <br>
+                    <input id="preco" type="text" placeholder="Ex: R$ 40,00">
+
+                    <br><br>
+                    <label for="ficha">Ficha técnica</label>
+                    <br>
+                    <textarea id="ficha-tec" rows="5" cols="40"></textarea>
+
+                    <br><br>
+                    <label for="categoria">Categoria</label>
+                    <br>
+                    <select id="categoria">
+                        <option>Blusa</option>
+                        <option>Camiseta</option>
+                        <option>Calça</option>
+                        <option>Saia</option>
+                        <option>Vestido</option>
+                        <option>Acessório</option>
+                        <option>Bolsa</option>
+                        <option>Tênis</option>
+                        <option>Outro</option>
+                      </select>
+
+                    <br><br>
+                    <label for="img-upload" class="style-upload">Upload de imagem do produto</label>
+                    <br>
+                    <input id="img-upload" type="file">
+
+                    <br><br>
+                    <div><button id="botao-cadast" type="submit">Cadastrar</button></div>
+                </form>
             </div>
         </div>
+
+
     </div>
+
+
+
+
+
     <footer>
         <div class="all">
             <div class="subrodape">
