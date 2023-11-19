@@ -124,6 +124,7 @@
     height: 700px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-shadow: 4px 4px black;
+    background-color: #373636;
 }
 
 .sobre-loja{
@@ -131,6 +132,7 @@
     margin: 20px 20px;
     padding: 20px 20px;
     box-shadow: 4px 4px black;
+    background-color: white;
 }
 
 .sobre-display{
@@ -146,6 +148,7 @@
     margin-left: 20px;
     padding: 30px;
     box-shadow: 4px 4px black;
+    background-color: white;
 }
 
 .sobre-mvv2{
@@ -155,6 +158,7 @@
     padding: 30px;
     margin-right: 20px;
     box-shadow: 4px 4px black;
+    background-color: white;
 }
 
 .sobre-mvv3{
@@ -165,6 +169,7 @@
     padding: 30px;
     margin-right: 20px;
     box-shadow: 4px 4px black;
+    background-color: white;
 }
 
 .sobre-space{
