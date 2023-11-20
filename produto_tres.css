@@ -131,7 +131,7 @@
 
 
 .produto-img{
-    background-image: url(produtos/jacket.jpg);
+    background-image: url(produtos/rabbitshirt.jpg);
     background-position: cover;
     background-size: 500px 600px;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@
 }
 
 .mini-img{
-    background-image: url(produtos/jacket.jpg);
+    background-image: url(produtos/rabbitshirt.jpg);
     background-position: cover;
     background-size: 80px 100px;
     background-repeat: no-repeat;
