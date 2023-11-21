@@ -129,8 +129,8 @@
 
 .produto-img{
     background-image: url(produtos/jacket.jpg);
-    background-position: cover;
-    background-size: 500px 600px;
+    background-position: center;
+    background-size: 400px 500px;
     background-repeat: no-repeat;
     width: 500px;
     height: 600px;

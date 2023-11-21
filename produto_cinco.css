@@ -129,8 +129,8 @@
 
 .produto-img{
     background-image: url(produtos/skirt.jpg);
-    background-position: cover;
-    background-size: 500px 600px;
+    background-position: center;
+    background-size: 350px 450px;
     background-repeat: no-repeat;
     width: 500px;
     height: 600px;
