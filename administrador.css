@@ -108,15 +108,6 @@
     color: black;
 }
 
-.all-three{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .all-adm{
     display: flex;
     justify-content: center;
