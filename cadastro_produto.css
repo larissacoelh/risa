@@ -108,35 +108,13 @@
     color: black;
 }
 
-.all-three{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.all-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.all-three2{
+.all-cadastro{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
-
-
-
-
 
 .alteracao{
     border: solid 1px black;
@@ -225,12 +203,6 @@
     color: black;
     margin-right: 15px;
 }
-
-
-
-
-
-
 
 .sub-footer{
     display: flex;

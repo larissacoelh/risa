@@ -108,25 +108,6 @@
     color: black;
 }
 
-.all-three{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.all-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-
-
-
 .carrinho-meu{
     display: flex;  
     align-items: center;
@@ -140,6 +121,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     border: solid 1px black;
+}
+
+.all-carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .carrinho{
@@ -158,7 +146,6 @@
     width: 750px;
     margin-bottom: 10px;
     padding-left: 20px;
-
 }
 
 .space-prod{
@@ -244,9 +231,6 @@
     text-decoration: none;
     color: black;
 }
-
-
-
 
 .sub-footer{
     display: flex;

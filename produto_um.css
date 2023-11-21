@@ -108,7 +108,7 @@
     color: black;
 }
 
-.all-three{
+.all-produto{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -117,8 +117,15 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-
+.mini-img{
+    width: 60px;
+    height: 80px;
+    border: solid 1px black;
+    box-shadow: #373636 4px 4px;
+    margin-right: 21px;
+    margin-bottom: 21px;
+    padding: 7px;
+}
 
 .produto-img{
     background-image: url(produtos/jacket.jpg);
@@ -133,17 +140,12 @@
     box-shadow: #373636 6px 6px;
 }
 
-.mini-img{
-    background-image: url(produtos/jacket.jpg);
-    background-position: cover;
-    background-size: 80px 100px;
-    background-repeat: no-repeat;
-    width: 80px;
-    height: 100px;
+.produto-descricao{
+    width: 450px;
     border: solid 1px black;
-    box-shadow: #373636 4px 4px;
-    margin-right: 21px;
-    margin-bottom: 21px;
+    box-shadow: #373636 6px 6px;
+    padding: 20px;
+    height: 560px;
 }
 
 .display-desc{
@@ -153,7 +155,7 @@
     margin-top: 10px;
 }
 
-.display-desc2{
+.display-desc-two{
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -162,6 +164,10 @@
 
 .space-cod{
     margin-right: 25px;
+}
+
+#star{
+    font-size: 20px;
 }
 
 .tamanho-qnt{
@@ -174,12 +180,14 @@
     margin-right: 30px;
 }
 
-.tam{
+.tit-tam{
     margin-bottom: 7px;
 }
 
-#quan{
-    margin-bottom: 7px;
+.decor-tamanho{
+    width: 50px;
+    border: solid 2px black;
+    border-radius: 5px 5px;
 }
 
 #linha-vertical {
@@ -188,16 +196,21 @@
     margin-right: 35px;
 }
 
-.produto-descricao{
-    width: 450px;
-    border: solid 1px black;
-    box-shadow: #373636 6px 6px;
-    padding: 20px;
-    height: 560px;
+#quantidade{
+    margin-bottom: 7px;
 }
 
-#star{
-    font-size: 20px;
+.unidades{
+    width: 50px;
+    padding-left: 10px;
+    border: solid 2px black;
+    border-radius: 5px 5px;
+}
+
+.display-botao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .botao-add{
@@ -211,29 +224,6 @@
     font-size: 20px;
     width: 450px;
 }
-
-.display-botao{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.unidades{
-    width: 50px;
-    padding-left: 10px;
-    border: solid 2px black;
-    border-radius: 5px 5px;
-}
-
-.decor-tamanho{
-    width: 50px;
-    border: solid 2px black;
-    border-radius: 5px 5px;
-}
-
-
-
-
 
 .sub-footer{
     display: flex;

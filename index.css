@@ -108,8 +108,6 @@
     color: black;
 }
 
-
-
 .image{
     display: flex;
     justify-content: center;
@@ -213,9 +211,6 @@
     border-radius: 20px;
     text-decoration: none;
 }
-
-
-
 
 .sub-footer{
     display: flex;
