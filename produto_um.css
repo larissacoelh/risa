@@ -214,6 +214,8 @@
 }
 
 .botao-add{
+    display: flex;
+    justify-content: center;
     background-color: #373636;
     border: solid 1px black;
     box-shadow: 4px 4px black;
