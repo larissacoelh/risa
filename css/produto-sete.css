@@ -108,15 +108,6 @@
     color: black;
 }
 
-.all-three{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .all-produto{
     display: flex;
     justify-content: center;
@@ -132,12 +123,11 @@
     border: solid 1px black;
     box-shadow: #373636 4px 4px;
     margin-right: 21px;
-    margin-bottom: 21px;
     padding: 7px;
 }
 
 .produto-img{
-    background-image: url(produtos/cargojeans.jpg);
+    background-image: url(../images/cat-bag.jpg);
     background-position: center;
     background-size: 400px 500px;
     background-repeat: no-repeat;
@@ -183,26 +173,6 @@
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.tamanho{
-    margin-right: 30px;
-}
-
-.tit-tam{
-    margin-bottom: 7px;
-}
-
-.decor-tamanho{
-    width: 50px;
-    border: solid 2px black;
-    border-radius: 5px 5px;
-}
-
-#linha-vertical {
-    height: 60px;
-    border-right: 1px solid black;
-    margin-right: 35px;
 }
 
 #quantidade{

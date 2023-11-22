@@ -123,14 +123,13 @@
     border: solid 1px black;
     box-shadow: #373636 4px 4px;
     margin-right: 21px;
-    margin-bottom: 21px;
     padding: 7px;
 }
 
 .produto-img{
-    background-image: url(produtos/skirt.jpg);
+    background-image: url(../images/rabbit-shirt.jpg);
     background-position: center;
-    background-size: 350px 450px;
+    background-size: 400px 500px;
     background-repeat: no-repeat;
     width: 500px;
     height: 600px;

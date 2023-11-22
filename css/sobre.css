@@ -170,7 +170,7 @@
 }
 
 .sobre-img{
-    background-image: url(header/dev_um.png);
+    background-image: url(../images/dev-um.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90px 90px;
@@ -180,7 +180,7 @@
 }
 
 .sobre-img-two{
-    background-image: url(header/dev_dois.png);
+    background-image: url(../images/dev-dois.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90px 90px;
