@@ -113,7 +113,7 @@
     margin-bottom: 50px;
     padding: 40px;
     margin-right: 50px;
-    box-shadow: 4px 4px black;
+    box-shadow: 4px 4px #373636;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -135,7 +135,7 @@
     align-items: center;
     background-color: #939393;
     border: solid 1px black;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #373636;
     width: 100px;
     height: 35px;
     padding: 5px 10px;
@@ -159,7 +159,7 @@
     height: 35px;
     padding-left: 5px;
     border: solid 1px black;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #373636;
     border-radius: 20px 20px;
     margin-right: 10px;
 }

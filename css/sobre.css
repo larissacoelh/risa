@@ -110,6 +110,7 @@
     height: 700px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-shadow: 4px 4px black;
+    border: solid 2px black;
     background-color: #373636;
 }
 
