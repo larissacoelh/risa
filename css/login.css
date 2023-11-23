@@ -105,6 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    background-color: #f3f3f3;
 }
 
 .login{
@@ -114,6 +115,7 @@
     padding: 40px;
     margin-right: 50px;
     box-shadow: 4px 4px #373636;
+    background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

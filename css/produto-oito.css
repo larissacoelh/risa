@@ -105,9 +105,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f3f3f3;
 }
 
 .mini-img{
@@ -116,7 +117,9 @@
     border: solid 1px black;
     box-shadow: #373636 4px 4px;
     margin-right: 21px;
+    margin-bottom: 21px;
     padding: 7px;
+    background-color: white;
 }
 
 .produto-img{
@@ -130,6 +133,7 @@
     margin-bottom: 20px;
     margin-right: 50px;
     box-shadow: #373636 6px 6px;
+    background-color: white;
 }
 
 .produto-descricao{
@@ -138,6 +142,7 @@
     box-shadow: #373636 6px 6px;
     padding: 20px;
     height: 560px;
+    background-color: white;
 }
 
 .display-desc{
